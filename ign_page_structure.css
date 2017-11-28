@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+p,h1,li {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.navContStruc {
+	width: 1000px;
+	height: 115px;
+	position: relative;
+	background-color: #fff;
+}
+.navBackTopStruc {
+	width: 1000px;
+	height: 74px;
+	position: absolute;
+	top: 0;
+}
+.navBackBotStruc {
+	width: 1000px;
+	height: 39px;
+	position: absolute;
+	top: 74px;
+}
+.navBackBotSty {
+	border-top: 1px solid rgb(224,224,224);
+	border-bottom: 1px solid rgb(224,224,224);
+}
+.navBackSty {
+	background-color: rgb(255,255,255);
+}
+
+/************************** Top-half nav styles start ****************************/
+#navTop div>h1 {
+	margin: 25px 15px 0 35px;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: rgb(255,255,255);
+}
+#navTop div>p {
+	margin: -5px 15px 0 15px;
+	padding-top: 20px;
+	position: relative;
+	bottom: 15px;
+	font-size: 0.75em;
+	line-height: 1.3;
+}
+#navTop div>p:hover {
+	color: rgb(200,13,15);
+	border-top: 6px solid rgb(200,13,15);
+	padding-top: 14px;
+}
+.navTopStruc {
+	width: 970px;
+	height: 75px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.navTopDiv1Struc {
+	width: 130px;
+	height: 74px;
+	float: left;
+}
+.navTopDiv1Sty {
+	background-color: rgb(191,19,19);
+}
+.navTopDiv2Struc {
+	width: 140px;
+	height: 55px;
+	position: relative;
+	top: 20px;
+	float: left;
+}
+.navTopDiv3Struc {
+	width: 138px;
+	height: 75px;
+	margin-right: 2px;
+	float: left;
+}
+.navTopDiv3Sty {
+	background-color: rgb(128,128,128);
+}
+.navTopDivs {
+	width: 139px;
+	height: 55px;
+	border-left: 1px solid rgb(224,224,224);
+	position: relative;
+	top: 20px;
+	float: left;
+}
+
+/************************* Bottom-half nav styles start ****************************/
+.navBotStruc {
+	width: 970px;
+	height: 40px;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 5;
+	background-color: #fff;
+	border-bottom: 1px solid rgb(224,224,224);
+}
+.navBotDiv1Struc {
+	width: 130px;
+	height: 40px;
+	float: left;
+	margin-top: -1px;
+}
+.navBotDiv1Sty {
+	border-top: 1px solid rgb(168,17,17);
+	background-color: rgb(191,19,19);
+}
+.navBotDiv1Struc>div {
+	width: 100px;
+	height: 27px;
+	margin: 5px 15px 5px 15px;
+	border: 1px solid rgb(143,12,13);
+	border-radius: 20px;
+}
+.navBotDiv1Struc>div>p {
+	font-size: 0.9em;
+	position: relative;
+	bottom: 13px;
+	left: 40px;
+	color: rgb(255,255,255);
+}
+#navBottom section:nth-child(1) {
+	margin-top: 8px;
+}
+.browseLines {
+	width: 16px;
+	height: 2px;
+	margin: 2px 15px 2px 15px;
+	background-color: rgb(255,255,255);
+}
+.navBotDiv2Struc {
+	width: 140px;
+	height: 40px;
+	float: left;
+}
+.input1Struc {
+	width: 124px;
+	height: 27px;
+	margin: 5px 8px 5px 8px;
+}
+.input1Sty {
+	text-indent: 8px;
+	font-weight: 600;
+	border: 1px solid rgb(231,230,230);
+	border-radius: 6px;
+	background-color: rgb(242,242,242);
+}
+.ul1Struc {
+	width: 550px;
+	height: 40px;
+	margin-left: 10px;
+	float: left;
+}
+.ul1Struc>li {
+	list-style: none;
+	display: inline;
+	font-size: 0.96em;
+	position: relative;
+	top: 12px;
+	margin-left: 8px;
+}
+.ul1Struc>li:hover {
+	color: rgb(255,0,0);
+}
+.navBotDiv3Struc {
+	width: 140px;
+	height: 40px;
+	float: left;
+}
+.p1Struc {
+	margin: 13px 0 0 45px;
+}
+.p1Sty {
+	font-size: 0.9em;
+	font-weight: 700;
+	color: rgb(0,0,0);
+}
+.navBotDiv3Struc>div {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	bottom: 17px;
+	left: 100px;
+	border-radius: 100%;
+	background-color: rgb(102,102,102);
+}
+/************************** on-hov cont styles ******************************/
+.browseContStruc {
+	width: 270px;
+	height: 315px;
+	position: fixed;
+	top: 121px;
+	left: 0;
+	right: 700px;
+	margin: 0 auto;
+	opacity: 0;
+	z-index: 3;
+}
+.browseContSty {
+	background-color: rgb(37,38,39);
+}
+.browseContDivStruc {
+	width: 270px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+}
+.browseContDivSty {
+	background-color: rgb(40,43,49);
+}
+.p2Struc {
+	margin: 19px 22px 0 0;
+	float: right;
+}
+.p2Sty {
+	font-size: 0.68em;
+	font-weight: 500;
+	color: rgb(255,255,255);
+}
+.p2Struc:hover {
+	color: rgb(126,128,131);
+}
+.browseContArrowStruc {
+	width: 15px;
+	height: 15px;
+	position: absolute; 
+	top: -4px;
+	left: 32px;
+	transform: rotateZ(45deg);
+}
+.browseContArrowSty {
+	background-color: rgb(37,38,39);
+}
+.browseContUl1Struc {
+	width: 120px;
+	height: 250px;
+	text-align: right;
+	padding-top: 12px;
+}
+.browseContUl1Struc>li {
+	list-style: none;
+	font-size: 0.9em;
+	margin-bottom: 19px;
+	color: rgb(211,212,212);
+}
+.browseContUl1Struc>li:hover {
+	color: rgb(255,250,233);
+}
+.browseContUl2Struc {
+	width: 125px;
+	height: 150px;
+	text-align: left;
+	padding-top: 12px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.browseContUl2Struc>li {
+	list-style: none;
+	font-size: 0.9em;
+	margin-bottom: 19px;
+	color: rgb(211,212,212);
+}
+.browseContUl2Struc>li:hover {
+	color: rgb(255,250,233);
+}
+.browseContUl3Struc {
+	width: 125px;
+	height: 130px;
+	text-align: left;
+	position: absolute;
+	top: 145px;
+	right: 0;
+}
+.browseContUl3Struc>li {
+	list-style: none;
+	font-size: 0.9em;
+	margin-bottom: 8px;
+	color: rgb(159,160,160);
+}
+.browseContUl3Struc>li:hover {
+	color: rgb(190,190,190);
+}
